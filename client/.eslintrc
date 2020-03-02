@@ -1,0 +1,71 @@
+{
+  "plugins": ["jsx-control-statements"],
+  "extends": ["react-app", "plugin:jsx-control-statements/recommended"],
+  "rules": {
+    "keyword-spacing": [
+      2,
+      {
+        "overrides": {
+          "catch": {
+            "after": true
+          },
+          "do": {
+            "after": true
+          },
+          "else": {
+            "after": true
+          },
+          "for": {
+            "after": true
+          },
+          "if": {
+            "after": true
+          },
+          "return": {
+            "after": true
+          },
+          "switch": {
+            "after": true
+          },
+          "try": {
+            "after": true
+          },
+          "while": {
+            "after": true
+          }
+        }
+      }
+    ],
+    "semi": [2, "never"],
+    "no-mixed-spaces-and-tabs": 2,
+    "indent": [
+      2,
+      2,
+      {
+        "SwitchCase": 0
+      }
+    ],
+    "prefer-arrow-callback": [2],
+    "jsx-a11y/alt-text": 0,
+    "react/jsx-no-undef": [
+      2,
+      {
+        "allowGlobals": true
+      }
+    ],
+    "no-var": 1,
+    "quotes": ["error", "single"],
+    "max-len": [
+      1,
+      {
+        "code": 160,
+        "ignoreComments": true,
+        "ignoreTrailingComments": true,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreRegExpLiterals": true
+      }
+    ]
+  }
+}

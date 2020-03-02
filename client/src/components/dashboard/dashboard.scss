@@ -1,0 +1,52 @@
+.dashboard {
+  opacity: 1;
+  transition: opacity 1000ms;
+  transition-delay: 1s;
+}
+
+.container {
+  .content {
+    position: relative;
+
+    .parsed-data {
+      top: 214px;
+      //left: -300px;
+      width: 70vw;
+      text-align: left;
+      position: absolute;
+      font-size: 17px;
+
+      img {
+        width: 400px;
+      }
+    }
+  }
+}
+
+
+// codementor related styles
+pre {
+  display: inline-block;
+  width: 106%;
+  margin-top: 0;
+  margin-left: -3%;
+  padding: 1em 1.2em;
+  margin-bottom: 31.2px;
+  border: 1px solid rgba(222, 229, 231, .6);
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  overflow-x: scroll;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  padding: 0;
+  color: inherit;
+  line-height: 22px;
+  white-space: pre;
+  font-size: 15px;
+  padding: 4px 6px;
+  background-color: #f8f8f8;
+  border-radius: 4px
+}

@@ -1,0 +1,113 @@
+body {
+
+  //background: #191a1d;
+  .content-styles {
+    .txt-large {
+      font-family: "Rubik", "Arial", sans-serif;
+      font-weight: 300;
+      color: #5e5e5e;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      outline: 0;
+      box-sizing: border-box;
+      border: 0;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+      font-size: 1.5rem;
+      line-height: 160%;
+      margin-top: 15px;
+    }
+
+    >h2 {
+      line-height: 110%;
+      margin: 0;
+
+      .h4 {
+        font-size: 1.875rem;
+      }
+
+
+      .txt-highlight {
+        color: #4b6cc1;
+      }
+    }
+
+  }
+
+
+
+
+  .overlap-img {
+    margin: 0;
+    width: 100%;
+    border-radius: 6px;
+    background: #f6f6f6;
+
+    @media screen and (max-width: 1024px) and (min-width: 901px) {
+      padding: 40px;
+      margin-bottom: 40px;
+
+    }
+
+    @media screen and (max-width: 1920px) and (min-width: 1025px) {
+      padding: 50px;
+      margin-bottom: 50px;
+    }
+
+    >a {
+      text-decoration: none;
+      color: #4b6cc1;
+
+      img {
+        //width: 100%;
+        height: 440px;
+        display: block;
+        position: relative;
+        -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 3px;
+
+        @media screen and (max-width: 1024px) and (min-width: 901px) {
+
+          margin-bottom: -80px;
+
+        }
+      }
+    }
+  }
+
+  .site-banner__btn {
+    font-size: 100%;
+    line-height: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    margin-top: 35px;
+
+    >a {
+      text-align: left;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      border-radius: 1000px;
+      background: #4b6cc1;
+      font-family: "Rubik", "Arial", sans-serif;
+      font-weight: 400;
+      color: #fff;
+      font-size: 1.75rem;
+      padding: 26px 48px;
+      transition: all ease .3s;
+
+      &:hover {
+        transform: scale(1.075);
+        box-shadow: inset 0 0 0 2px #4b6cc1;
+        background: none;
+        color: #4b6cc1;
+      }
+
+      :not(.btn--disabled):hover {
+        color: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.login-btn {
+  width: 140px;
+  letter-spacing: 1.5px;
+  border-radius: 2px;
+  background: transparent;
+  box-shadow: inset 0 0 0 2px #0d97ff;
+  color: #0d97ff !important;
+  display: inline-block;
+  font-family: "CalibreSemibold", helvetica, sans-serif;
+  padding: 0 25px;
+  text-transform: capitalize;
+
+  &:hover {
+    color: #0d97ff !important;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 10px 4px #0d97ff;
+  }
+}
